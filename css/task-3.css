@@ -1,0 +1,21 @@
+#name-input {
+    margin: 24px 24px 16px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    padding: 8px 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+h1 {
+    margin-left: 24px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}

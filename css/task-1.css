@@ -1,0 +1,38 @@
+#categories {
+    margin: 24px;
+}
+
+.item:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+.item {
+    padding: 16px;
+    border-radius: 8px;
+    max-width: 392px;
+    background: #f6f6fe;
+    color: #2e2f42;
+}
+
+.item h2 {
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
+}
+
+.item ul li:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.item ul li {
+    border: rgba(46, 47, 66, 0.5) 1px solid;
+    border-radius: 4px;
+    padding: 8px 0 8px 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    width: 100%;
+}
