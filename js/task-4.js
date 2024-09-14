@@ -8,8 +8,6 @@ function handelBtnSubmit(event) {
   const loginFormEmail = event.target.elements.email.value.trim();
   const loginFormPassword = event.target.elements.password.value.trim();
 
-  console.dir(loginFormEmail);
-
   if (loginFormEmail === "" || loginFormPassword === "") {
     return alert("All form fields must be filled in");
   }
