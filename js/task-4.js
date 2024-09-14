@@ -5,10 +5,10 @@ loginForm.addEventListener("submit", handelBtnSubmit);
 function handelBtnSubmit(event) {
   event.preventDefault();
 
-  const loginFormEmail = loginForm.elements.email.value;
-  const loginFormPassword = loginForm.elements.password.value;
+  const loginFormEmail = event.target.elements.email.value.trim();
+  const loginFormPassword = event.target.elements.password.value.trim();
 
-  // loginFormPassword.trim();
+  console.dir(loginFormEmail);
 
   if (loginFormEmail === "" || loginFormPassword === "") {
     return alert("All form fields must be filled in");

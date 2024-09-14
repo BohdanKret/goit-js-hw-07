@@ -5,9 +5,11 @@ const colorSpanLine = document.querySelector('.color');
 changeColorBtn.addEventListener('click', onBtnClick);
 
 function onBtnClick() {
-  bodyOfPage.style.backgroundColor = getRandomHexColor(bodyOfPage.style.backgroundColor);
+  const randomColor = getRandomHexColor();
+
+  bodyOfPage.style.backgroundColor = randomColor;
   // console.log(getRandomHexColor(bodyOfPage.style.backgroundColor));
-  colorSpanLine.style.color = bodyOfPage.style.backgroundColor;
+  colorSpanLine.style.color = randomColor;
   // console.log(colorSpanLine.style.color);
 }
 
